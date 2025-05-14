@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1747106459843') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e648";
+}
+
+.icon-web3:before {
+  content: "\e6fd";
+}
+
+.icon-github:before {
+  content: "\e85a";
+}
+
+.icon-block:before {
+  content: "\e7df";
+}
+
+.icon-chain:before {
+  content: "\e7b3";
+}
+
+.icon-transactions:before {
+  content: "\e528";
+}
+

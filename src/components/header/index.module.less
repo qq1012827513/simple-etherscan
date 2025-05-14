@@ -1,0 +1,65 @@
+.header {
+  .headerTop {
+    border-bottom: 1px solid #e9ecef;
+    .content {
+      font-size: 0.7rem;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-sizing: border-box;
+    }
+
+    .left {
+      flex: 1;
+      span {
+        margin: 0 10px;
+      }
+    }
+    .middle {
+      cursor: pointer;
+      span {
+        display: block;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 0.7rem;
+      }
+    }
+    .right {
+      display: flex;
+      align-items: center;
+      justify-content: right;
+      flex: 1;
+      .search {
+      }
+      .buttons {
+        .icon {
+          font-size: 30px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    .logo {
+      img {
+        height: 30px;
+      }
+    }
+    .menuItem {
+      display: flex;
+      li {
+        cursor: pointer;
+        padding: 3px 10px;
+        &:hover {
+          color: #409caf;
+        }
+      }
+    }
+  }
+}
