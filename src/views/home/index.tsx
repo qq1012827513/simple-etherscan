@@ -68,7 +68,7 @@ function Home() {
             />
             <SummaryCard
               iconClassName='icon-block'
-              value={baseInfo.gasPrice.toString() + ' Wei'}
+              value={ethers.formatUnits(baseInfo.gasPrice.toString(), 'gwei').replace(/(.*\.\d{3}).*/g, '$1') + ' GWei'}
               desc='Base Fee'
             />
             <SummaryCard
